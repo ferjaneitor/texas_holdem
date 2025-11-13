@@ -1,8 +1,8 @@
 from __future__ import annotations
 from typing import List, Optional
 
-from .cards import Card
-from .config import STARTING_STACK
+from cards import Card
+from config import STARTING_STACK
 
 """
 player.py

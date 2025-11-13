@@ -17,7 +17,7 @@ def clamp(x: float, a: float, b: float) -> float:
         x: valor original.
         a: límite inferior.
         b: límite superior.
-
+    
     Returns:
         x limitado entre a y b.
     """

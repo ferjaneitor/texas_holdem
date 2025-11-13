@@ -21,7 +21,8 @@ from .cards import Card, Deck, SUITS, RANKS, RANK_TO_INT
 from .eval_hand import evaluate7, quick_strength
 from .player import Player
 from .ai import bot_decision
-from .game import Game
+from .game_logic import Game   # 👈 AHORA VIENE DE LA CARPETA Game/
+
 __all__ = [
     "WIDTH", "HEIGHT", "FPS",
     "TABLE_COLOR", "CARD_W", "CARD_H", "FOOTER_H", "PLAYER_Y", "BOT_MAX_Y",

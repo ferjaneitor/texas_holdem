@@ -2,10 +2,10 @@ from __future__ import annotations
 import random
 from typing import Tuple, List
 
-from .player import Player
-from .cards import Card
-from .config import BIG_BLIND, EASY, MED
-from .eval_hand import quick_strength
+from player import Player        # ⬅ sin punto
+from cards import Card           # ⬅ sin punto
+from config import EASY, MED
+from eval_hand import quick_strength
 
 """
 ai.py

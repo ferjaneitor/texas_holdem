@@ -2,8 +2,8 @@ from __future__ import annotations
 from typing import List, Tuple, Optional
 from collections import Counter
 
-from .cards import Card, RANK_TO_INT
-from .utils import clamp
+from cards import Card, RANK_TO_INT   # ⬅ sin punto
+from utils import clamp               # ⬅ sin punto
 
 """
 eval_hand.py
